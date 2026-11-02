@@ -1,0 +1,2 @@
+e0635cede409e8ebca81598c9b834caa3a769119a03d4e81206176ad50fcb083  worldbosses-0.2.0-fabric-1.21.10.jar
+caaad95e59dd3442b5ce66927e19674c0736ec2d8c1fb9b046273f17de97325d  worldbosses-0.2.0-install.zip
