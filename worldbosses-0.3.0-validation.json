@@ -1,0 +1,27 @@
+{
+  "version": "0.3.0",
+  "minecraft": "1.21.10",
+  "loader": "0.17.3",
+  "fabric_api": "0.138.4+1.21.10",
+  "build": "passed",
+  "spawn_budget_unit_tests": 6,
+  "resource_tests": 5,
+  "mod_gametests": 19,
+  "minecraft_baseline_tests": 1,
+  "independent_boss_models": 68,
+  "new_finished_rewards": 68,
+  "categories": {
+    "equipment": 16,
+    "food": 6,
+    "tool": 25,
+    "weapon": 21
+  },
+  "actual_jar_client_world_entry": true,
+  "all_68_boss_species_loaded_in_client_world": true,
+  "all_68_reward_models_and_68_spawn_egg_models_loaded": true,
+  "missing_mod_texture_warnings": false,
+  "limitations": [
+    "Shared hostile ability patterns remain; advanced per-species phases are unfinished.",
+    "Long-term multiplayer balance and every animation state have not been exhaustively tested."
+  ]
+}
