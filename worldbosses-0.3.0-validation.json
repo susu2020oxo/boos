@@ -6,7 +6,7 @@
   "build": "passed",
   "spawn_budget_unit_tests": 6,
   "resource_tests": 5,
-  "mod_gametests": 19,
+  "mod_gametests": 20,
   "minecraft_baseline_tests": 1,
   "independent_boss_models": 68,
   "new_finished_rewards": 68,
