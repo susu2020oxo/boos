@@ -1,38 +1,23 @@
-# 下载 v0.3.1
+# 下载 v0.3.2
 
-<table><tr><td><strong>万物皆 Boss v0.3.1</strong><br>Java 1.21.10 · Fabric<br>JAR · 27.4 MB</td><td><img src="build-success.svg" alt="编译成功" width="92"></td></tr></table>
+<table><tr><td>
+<img src="download-info.svg" width="928" alt="万物皆 Boss v0.3.2 · Java 1.21.10 · Fabric · 编译成功">
+</td></tr><tr><td>
+<a href="https://raw.githubusercontent.com/susu2020oxo/boos/downloads-v0.3.2/worldbosses-0.3.2-fabric-1.21.10.jar"><img src="download-mod.svg" width="928" alt="下载 MOD（JAR）"></a>
+</td></tr><tr><td>
+<a href="https://raw.githubusercontent.com/susu2020oxo/boos/downloads-v0.3.2/worldbosses-0.3.2-install.zip"><img src="download-zip.svg" width="928" alt="下载完整 ZIP 安装包"></a>
+</td></tr><tr><td>
+<a href="https://github.com/susu2020oxo/boos/blob/downloads-v0.3.2/worldbosses-0.3.2-fabric-1.21.10.jar?raw=true">GitHub 云仓库备用下载 ↗</a>
+</td></tr></table>
 
-[![下载 MOD（JAR）](download-mod.svg)](https://github.com/susu2020oxo/boos/raw/refs/heads/downloads-v0.3.1/worldbosses-0.3.1-fabric-1.21.10.jar)
+**v0.3.2 食物消耗修复：** 全部 8 种模组食物在生存模式下每次消耗 1 个，最后一份吃完后消失，特殊效果保留。创造模式沿用原版规则。
 
-[![下载完整 ZIP 安装包](download-zip.svg)](https://github.com/susu2020oxo/boos/raw/refs/heads/downloads-v0.3.1/worldbosses-0.3.1-install.zip)
+- [直接下载 JAR](https://raw.githubusercontent.com/susu2020oxo/boos/downloads-v0.3.2/worldbosses-0.3.2-fabric-1.21.10.jar) · [完整 ZIP（含 Fabric API）](https://raw.githubusercontent.com/susu2020oxo/boos/downloads-v0.3.2/worldbosses-0.3.2-install.zip)
+- [JAR 备用入口](https://github.com/susu2020oxo/boos/blob/downloads-v0.3.2/worldbosses-0.3.2-fabric-1.21.10.jar?raw=true) · [ZIP 备用入口](https://github.com/susu2020oxo/boos/blob/downloads-v0.3.2/worldbosses-0.3.2-install.zip?raw=true)
+- [源码 ZIP](https://raw.githubusercontent.com/susu2020oxo/boos/downloads-v0.3.2/worldbosses-0.3.2-source.zip) · [SHA-256 校验](SHA256SUMS.txt) · [测试记录](worldbosses-0.3.2-validation.json)
 
-[备用 JAR 直链](https://raw.githubusercontent.com/susu2020oxo/boos/refs/heads/downloads-v0.3.1/worldbosses-0.3.1-fabric-1.21.10.jar) · [源码 ZIP](https://github.com/susu2020oxo/boos/raw/refs/heads/downloads-v0.3.1/worldbosses-0.3.1-source.zip)
+**安装：** Minecraft Java 1.21.10、Fabric Loader 0.17.3 或更新版本、Java 21。退出游戏，移出旧的 World Bosses JAR，将新版与对应的 Fabric API 放入游戏的 `mods` 文件夹后重启。ZIP 已包含两个 JAR。客户端与服务器使用同一版本。
 
-## 本次修复
+**验证：** 构建、20 项模组服务端 GameTest、资源检查、正式 JAR 完整性检查通过。本次食物修复未重新进行图形客户端检查。
 
-- 修复 **沼冠蟾王（青蛙）** 和 **裂帛怨灵（恼鬼）** 的模型不可见。
-- 同时修复具有相同原因的 **悦灵**。
-- 将新模型挂到原版实际使用的内层渲染节点，并修正节点高度与动画绑定。
-- 保留 0.3.0 的五倍监守者、新造型、强化掉落物、免使用消耗和生成机制。
-
-已通过 4 种模型的客户端顶点输出、离地高度及头部动画检查，20 项模组 GameTest，构建及资源检查；另用实际发行 JAR 进入游戏确认这三种模型可见。检查记录见 [validation.json](worldbosses-0.3.1-validation.json)。
-
-更新：移出旧版 World Bosses JAR，放入新版后重启游戏，无需重新开档。ZIP 已包含对应 Fabric API；Minecraft Java 1.21.10、Fabric Loader 0.17.3 或更新版本、Java 21。客户端和服务器均使用对应版本。
-
-## 修复后游戏实拍
-
-![三个模型均已显示](v031-render-fix.png)
-
-### 沼冠蟾王
-
-![沼冠蟾王](v031-frog.png)
-
-### 裂帛怨灵
-
-![裂帛怨灵](v031-vex.png)
-
-### 悦灵
-
-![悦灵](v031-allay.png)
-
-文件校验：[SHA256SUMS.txt](SHA256SUMS.txt)。
+保留 v0.3.1 的模型修复及其他内容；技能、工具和装备的已有使用规则保持不变。
