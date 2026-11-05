@@ -1,0 +1,34 @@
+{
+  "version": "0.3.3",
+  "minecraft": "1.21.10",
+  "loader": "0.17.3",
+  "fabric_api": "0.138.4+1.21.10",
+  "build": "passed",
+  "spawn_budget_unit_tests": 6,
+  "resource_tests": 5,
+  "mod_gametests": 26,
+  "minecraft_baseline_tests": 1,
+  "independent_boss_models": 68,
+  "new_finished_rewards": 68,
+  "categories": {
+    "equipment": 16,
+    "food": 6,
+    "tool": 25,
+    "weapon": 21
+  },
+  "health_multiplier_vs_0_3_2": 6,
+  "damage_multiplier_vs_0_3_2": 3,
+  "warden_health": 3000,
+  "old_save_migration_and_repeat_loads": "passed",
+  "damage_scope": "Boss-attributed hits before armor and absorption; unattributed status ticks retain vanilla damage.",
+  "client_render_regressions": [],
+  "actual_jar_client_world_entry": null,
+  "all_68_boss_species_loaded_in_client_world": null,
+  "all_68_reward_models_and_68_spawn_egg_models_loaded": null,
+  "missing_mod_texture_warnings": null,
+  "client_visual_checks": "not repeated for gameplay-only change",
+  "limitations": [
+    "Shared hostile ability patterns remain; advanced per-species phases are unfinished.",
+    "Long-term multiplayer balance and every animation state have not been exhaustively tested."
+  ]
+}
